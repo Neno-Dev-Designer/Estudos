@@ -1,0 +1,46 @@
+body{ 
+    
+    background-color: black;
+
+    background-image: url("../src/imagens/maxresdefault (2)_upscayl_4x_ultrasharp.png");
+
+    background-size: cover;
+
+    color: azure;
+
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.menu-container {
+    display: flex; /* Alinha os navs na mesma linha */
+    justify-content: space-between; /* Espaçamento entre os menus */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none; /* Remove as bolinhas */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Itens em linha */
+}
+
+nav li {
+    margin: 0 30px; /* Espaçamento entre os itens */
+}
+
+a {
+    color: orangered;
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+header{
+
+     margin: 30px;
+
+}
+
+header .titulo{
+
+     color: orangered;
+
+}
