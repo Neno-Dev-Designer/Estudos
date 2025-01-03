@@ -1,0 +1,38 @@
+body {
+    background-color: black; /* Fundo preto */
+    color: aliceblue; /* Cor do texto */
+    margin: 0; /* Remove margens padrão */
+    display: flex; /* Centraliza vertical e horizontalmente */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Organiza os elementos na vertical */
+    height: 50vh; /* Preenche a altura da tela */
+}
+
+header h1 {
+    margin: 0; /* Remove margens padrão do H1 */
+    font-size: 2rem; /* Ajuste o tamanho do texto conforme necessário */
+    text-align: center; /* Centraliza o título */
+}
+
+main {
+    display: flex; /* Configura o contêiner principal para flexbox */
+}
+
+.a {
+    display: grid; /* Configura a grade */
+    grid-template-columns: 1fr 1fr; /* 2 colunas */
+    gap: 10px; /* Espaço entre as imagens */
+    margin-top: 20px; /* Espaçamento do topo */
+}
+
+.a a {
+    display: block; /* Garante que os links sejam tratados como blocos */
+}
+
+.a img {
+    width: 100%; /* Ajusta a largura das imagens */
+    height: auto; /* Mantém a proporção */
+    border-radius: 5px; /* Bordas arredondadas (opcional) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra nas imagens */
+}
