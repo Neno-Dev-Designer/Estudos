@@ -1,0 +1,35 @@
+body{
+
+    background-color: black;
+    color: aliceblue;
+    margin: 20px; 
+
+    header{
+
+        img{
+
+            width: 200px;
+            height: auto;
+
+        }
+
+        nav{
+
+            display: inline-block;
+
+            ul{
+
+                li{
+
+                    display: inline-flex;
+                    vertical-align: 20px;
+                    margin: 15px;
+
+                }
+
+               
+            }
+        }
+    }
+}
+
