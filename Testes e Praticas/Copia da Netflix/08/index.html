@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 08</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        
+        body{
+
+            background-color: black;
+            color: aliceblue;
+            margin: 20px;
+
+        }
+
+        header{
+
+            img{
+
+                width: 200px;
+                height: auto;
+
+            }
+
+            nav{
+
+                display: inline-block;
+                vertical-align: 20px;
+
+                ul{
+
+                    li{
+
+                        display: inline-flex;
+                        margin: 10px;
+
+
+                    }
+
+                }
+
+
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+
+        <img src="img/netflix-logo-drawing-png-19.png" alt="Logo">
+
+        <nav>
+            <ul type="none">
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Séries</a>
+                </li>
+                <li>
+                    <a href="#">Filmes</a>
+                </li>
+                <li>
+                    <a href="#">Bombando</a>
+                </li>
+                <li>
+                    <a href="#">Minha lista</a>
+                </li>
+                <li>
+                    <a href="#">Pesquizar por idiomas</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+            <h1>Listas</h1>
+
+            <h2>Lista ordenada</h2>
+
+            <ol type="I">
+                <li>
+                    Acordar
+                </li>
+                <li>
+                    Escovar os dentes
+                </li>
+                <li>
+                    Tomar café
+                </li>
+                <li>
+                    Ir pro trabalho
+                </li>
+            </ol>
+
+            <h2>Lista não ordenada</h2>
+
+            <ul>
+                <li>
+                    Mesa
+                </li>
+                <li>
+                    Cadeno
+                </li>
+                <li>
+                    Porta
+                </li>
+                <li>
+                    Chão
+                </li>
+            </ul>
+
+            <h1>Links ancoras, navegação e downloads</h1>
+
+            <a href="pag02.html" tagrget="_blank">Downloads</a>
+
+            <h1>Imagens dinamicas que se adptam (Experiência do usuario)</h1>
+
+            <picture>
+                <source media="(max-width: 650px )" srcset="img/P.png" type="image/png">
+                <source media="(max-width: 700px )" srcset="img/M.png" type="image/png">
+                <img src="img/G.png" alt="Imagem">
+            </picture>
+
+            <h1>Audio para todos os formatos dos navagadores (Experiência do usuario)</h1>
+
+            <audio controls>
+                <source src="Música/NEFFEX_-_Statement_Copyright_Free_No_138_[_YouConvert.net_] (1).mp3" type="audio/mp3">
+
+                <source src="Música/NEFFEX_-_Statement_Copyright_Free_No_138_[_YouConvert.net_] (1).mp3" type="audio/wav">
+            </audio>
+
+            <h1>Videos em hopedagem propria, para todos os formatos de navagadores (Experiência do usuario)</h1>
+
+            <video width="500" poster="img/Capa.png" controls autoplay loop>
+                <source src="videos/meu-video.mp4.mp4" type="video/mp4">
+                <source src="videos/meu-video.m4v.m4v" type="video/m4v">
+                <source src="videos/meu-video.ogv.ogv" type="video/ogv">
+                <source src="videos/meu-video.webm.webm" type="video/webm">
+            </video>
+
+            <h1>videos em hospedagem externa</h1>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4rSPV1NbM10?si=nRBbswBUyMuQub_C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <h1>Nesta dia de pratica, eu utilizei o metodo de css interno</h1>
+
+
+    </main>
+</body>
+</html>
