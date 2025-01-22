@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 014</title>
+    <style>
+
+        body{
+
+            background-color: black;
+            color: aliceblue;
+            margin: 20px;
+
+            header{
+
+                img{
+
+                    width: 200px;
+                    height: auto;
+
+                }
+
+                nav{
+
+                    display: inline-block; 
+                    vertical-align: 20px;
+
+                    ul{
+
+                        li{
+
+                            display: inline-flex; 
+                            margin: 10px;
+
+                        }
+                    }
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+
+        <img src="src/img/netflix-logo-drawing-png-19.png" alt="Logo">
+
+        <nav>
+            <ul typy="none">
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Séries</a>
+                </li>
+                <li>
+                    <a href="#">Filmes</a>
+                </li>
+                <li>
+                    <a href="#">Bombando</a>
+                </li>
+                <li>
+                    <a href="#">Minha lista</a>
+                </li>
+                <li>
+                    <a href="#">Pesquisar por idiomas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Listas</h1>
+
+        <h2>Lista ordenada</h2>
+
+        <ol type="I">
+            <li>
+                Acordar
+            </li>
+            <li>
+                Escovar os dentes
+            </li>
+            <li>
+                Tomar café
+            </li>
+            <li>
+                Ir trabalhar
+            </li>
+        </ol>
+
+        <h2>Lista não ordenada</h2>
+
+        <ul type="none">
+            <li>
+                What hapened?
+            </li>
+            <li>
+                I did it
+            </li>
+            <li>
+                Also
+            </li>
+            <li>
+                stay
+            </li>
+            <li>
+                short
+            </li>
+            <li>
+                arrive
+            </li>
+            <li>
+                Tel me 
+            </li>
+            <li>
+                Counter
+            </li>
+            <li>
+                Make
+            </li>
+            <li>
+                Can (Pode, Sabe, Consegue)
+            </li>
+        </ul>
+
+        <h1>Links ancoras e downloads (Navegação)</h1>
+
+        <a href="pag02.html" target="_blank">Downloads</a>
+
+        <h1>Imagens dinamicas (User Experience) para todos os dispozitivos</h1>
+
+        <picture>
+            <source media="(max-width: 650px )" srcset="/src/img/P.png" type="image/png">
+            <source media="(max-width: 700px )" srcset="/src/img/M.png" type="image/png">
+            <img src="src/img/G.png" alt="Imagem">
+        </picture>
+
+
+        <h1>Audios para todos os formatos de navegadores (User Experience)</h1>
+
+        <audio controls>
+            <source src="src/Música/NEFFEX_-_Statement_Copyright_Free_No_138_[_YouConvert.net_] (1).mp3" type="audio/mp3">
+            <source src="src/Música/NEFFEX_-_Statement_Copyright_Free_No_138_[_YouConvert.net_] (1).mp3" type="Audio/wav">
+            <p>Seu navegador não suporta este formato de arquivo.</p>
+        </audio>
+
+        <h1>Video para todos os formatos de navegadores (User Experience) hospedagem propria</h1>
+
+        <video width="500" poster="src/img/Capa.png" controls loop>
+            <source src="src/videos/meu-video.mp4.mp4" type="video/mp4">
+            <source src="src/videos/meu-video.m4v.m4v" type="video/m4v">
+            <source src="src/videos/meu-video.ogv.ogv" type="video/ogv">
+            <source src="src/videos/meu-video.webm.webm" type="video/webm">
+            <p>Seu navegador não suporte este formato de arquivo.</p>
+        </video>
+
+        <h1>Videos em hospedagem externa</h1>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Entjz3c0xrc?si=ywG_hgwKCF3PA0dK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <h1 style="background-color: rgb(0, 0, 255); color: rgb(255, 255, 255);">Emoji e mudança de cor no padrão RGB</h1>
+        <h1>&#x1F60A</h1>
+
+
+
+
+
+
+    </main>
+</body>
+</html>
